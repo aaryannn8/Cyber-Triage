@@ -1,0 +1,2 @@
+transaction_id,timestamp,sender_account,receiver_account,upi_id,amount,bank_reference,transaction_type
+TXN-UPI-9905,2026-09-14 18:00:00,ACC-300400500,ACC-888777001,fraud-demo@upi,28000.0,UTR-UPI-889900,UPI_PAY

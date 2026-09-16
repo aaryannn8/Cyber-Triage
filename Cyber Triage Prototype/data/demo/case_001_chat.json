@@ -1,0 +1,10 @@
+[
+  {
+    "message_id": "CHAT-MSG-001",
+    "timestamp": "2026-09-15 10:22:00",
+    "sender": "+919876500001",
+    "receiver": "+919876511111",
+    "message_text": "Please download Quick Bank Helper from http://suspicious-demo.test and send funds to fraud-demo@upi",
+    "attachment_name": "QuickBank_Helper.apk"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "package_name": "com.fake.quickbank.support",
+  "app_name": "Quick Bank Helper",
+  "permissions": [
+    "READ_SMS",
+    "RECEIVE_SMS",
+    "INTERNET"
+  ],
+  "certificate_hash": "A1B2C3D4E5F678901234567890ABCDEF12345678",
+  "embedded_domains": [
+    "suspicious-demo.test"
+  ],
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "file_name": "QuickBank_Helper.apk",
+  "created_time": "2026-09-15 10:18:00"
+}

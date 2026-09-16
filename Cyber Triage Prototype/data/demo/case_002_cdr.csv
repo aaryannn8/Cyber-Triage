@@ -1,0 +1,2 @@
+caller_number,receiver_number,timestamp,duration_seconds,cell_tower,call_type
++919876500001,+919876533333,2026-09-14 15:20:00,190,TOWER-MUMBAI-SOUTH-02,VOICE_INCOMING

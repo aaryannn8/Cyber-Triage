@@ -1,0 +1,9 @@
+From: alert@suspicious-demo.test
+To: demo-user@example.test
+Date: Tue, 15 Sep 2026 09:55:00 +0000
+Subject: Urgent Banking Security Alert
+Message-ID: <msg-9901@suspicious-demo.test>
+Received: from mail.suspicious-demo.test ([198.51.100.10]) by mx.example.test; Tue, 15 Sep 2026 09:55:01 +0000
+Reply-To: support@suspicious-demo.test
+
+Dear Customer, your bank account requires urgent verification. Please update your details.

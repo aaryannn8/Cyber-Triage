@@ -1,0 +1,10 @@
+[
+  {
+    "phone_number": "+919876530003",
+    "ip_address": "198.51.100.33",
+    "timestamp": "2026-09-14 18:30:00",
+    "destination_domain": "suspicious-demo.test",
+    "device_id": "DEV-SYNTH-0033",
+    "session_duration": 450
+  }
+]

@@ -1,0 +1,3 @@
+transaction_id,timestamp,sender_account,receiver_account,upi_id,amount,bank_reference,transaction_type
+TXN-UPI-9901,2026-09-15 10:30:00,ACC-100200300,ACC-888777001,fraud-demo@upi,42000.0,UTR-UPI-882190,UPI_PAY
+TXN-UPI-9902,2026-09-15 10:41:00,ACC-888777001,ACC-888777002,fraud-demo@upi,42000.0,UTR-IMPS-991201,IMPS_FORWARD

@@ -1,0 +1,8 @@
+{
+  "complaint_id": "CMP-2026-8801",
+  "case_id": "CASE-2026-001",
+  "timestamp": "2026-09-15 11:30:00",
+  "complaint_text": "Victim received fake banking call from +919876500001 requesting APK download from suspicious-demo.test. INR 42000 lost to UPI fraud-demo@upi from account ACC-100200300.",
+  "reported_amount": 42000.0,
+  "location": "New Delhi"
+}

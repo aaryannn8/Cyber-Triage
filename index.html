@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIPHER-FUSION | Cyber Fraud Analysis & Digital Artifact Correlator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.52.0/build/stlite.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0F172A;
+      color: #F8FAFC;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    #loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border-left-color: #3B82F6;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div id="loading">
+      <div class="spinner"></div>
+      <h2>⚡ Loading CIPHER-FUSION Prototype...</h2>
+      <p style="color: #94A3B8;">Initializing Python WebAssembly Environment</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.52.0/build/stlite.js"></script>
+  <script>
+    stlite.mount({
+      requirements: [
+        "streamlit>=1.31.0",
+        "pandas>=2.1.0",
+        "networkx>=3.2.1",
+        "plotly>=5.18.0",
+        "pydantic>=2.6.0"
+      ],
+      entrypoint: "app.py",
+      files: {
+        "app.py": `import streamlit as st
+
+st.set_page_config(
+    page_title="CIPHER-FUSION | Cyber Fraud Analysis & Digital Artifact Correlator",
+    page_icon="⚡",
+    layout="wide"
+)
+
+st.title("⚡ CIPHER-FUSION Prototype")
+st.caption("🔒 Law Enforcement Investigative Summary & Artifact Correlator")
+
+st.info("👋 Welcome to CIPHER-FUSION Web Deployment.")
+
+st.markdown("""
+### 📌 Deployment Status
+- **Streamlit Community Cloud**: Ready (Deploy via \`app.py\` at repository root)
+- **Netlify**: Active via WebAssembly (stlite engine)
+- **Vercel**: Active via WebAssembly (stlite engine)
+
+---
+### 📁 Available Features
+1. **Case Management**: Organize multi-victim fraud investigations.
+2. **Artifact Ingestion**: Parse CDR, IPDR, UPI, Bank Statements, Chat Logs.
+3. **Mule Account Correlation**: Rapid forwarding velocity detection.
+4. **Evidence Graph**: Case-isolated and cross-case network visualization.
+5. **Golden-Hour Action Queue**: Prioritized investigative leads.
+""")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.metric("Supported Formats", "7 Ingestion Types")
+    st.metric("Risk Scoring Engine", "0 - 100 Risk Score")
+with col2:
+    st.metric("Chain of Custody", "SHA-256 Hashed")
+    st.metric("Privacy Protocol", "PII Auto-Masked")
+`
+      }
+    }, document.getElementById("root"));
+  </script>
+</body>
+</html>

@@ -1,9 +1,14 @@
 import sys
 import os
 
+# Get directory paths
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-if ROOT_DIR not in sys.path:
-    sys.path.insert(0, ROOT_DIR)
+PROTOTYPE_DIR = os.path.join(ROOT_DIR, "Cyber Triage Prototype")
+
+# Ensure both ROOT_DIR and PROTOTYPE_DIR are in sys.path
+for path in [ROOT_DIR, PROTOTYPE_DIR]:
+    if path not in sys.path:
+        sys.path.insert(0, path)
 
 import streamlit as st
 
